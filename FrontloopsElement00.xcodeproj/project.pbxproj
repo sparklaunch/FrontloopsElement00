@@ -13,6 +13,8 @@
 		2E517B8F2638DC6700D02AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E517B8D2638DC6700D02AA1 /* Main.storyboard */; };
 		2E517B912638DC6A00D02AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E517B902638DC6A00D02AA1 /* Assets.xcassets */; };
 		2E517B942638DC6A00D02AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E517B922638DC6A00D02AA1 /* LaunchScreen.storyboard */; };
+		2E517BA42638E42900D02AA1 /* PickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E517BA32638E42900D02AA1 /* PickerItem.swift */; };
+		2E517BA72638E45000D02AA1 /* PickerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E517BA62638E45000D02AA1 /* PickerBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2E517B902638DC6A00D02AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E517B932638DC6A00D02AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E517B952638DC6A00D02AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E517BA32638E42900D02AA1 /* PickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerItem.swift; sourceTree = "<group>"; };
+		2E517BA62638E45000D02AA1 /* PickerBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		2E517BA12638DD1000D02AA1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2E517BA32638E42900D02AA1 /* PickerItem.swift */,
+				2E517BA62638E45000D02AA1 /* PickerBrain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E517BA42638E42900D02AA1 /* PickerItem.swift in Sources */,
 				2E517B8C2638DC6700D02AA1 /* MainViewController.swift in Sources */,
+				2E517BA72638E45000D02AA1 /* PickerBrain.swift in Sources */,
 				2E517B882638DC6700D02AA1 /* AppDelegate.swift in Sources */,
 				2E517B8A2638DC6700D02AA1 /* SceneDelegate.swift in Sources */,
 			);
